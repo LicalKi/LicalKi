@@ -11,7 +11,7 @@ jobs:
       - image: circleci/golang:1.8.1
     steps:
       - checkout
-      - run: echo "hello world"
+      - run: echo "try161Test"
 workflows:
   version: 2
   build_and_test:
